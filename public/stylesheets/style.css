@@ -42,11 +42,11 @@ table {
 
 .center {
     display: block;
-    max-width: 50%;
-    max-height: 50%;
+    max-width: 75%;
+    max-height: 75%;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 6em;
+    padding-top: 1.5em;
 }
 
 .coffee_icon {
@@ -61,7 +61,7 @@ table {
 #icon {
     height: 15em;
     width: 15em;
-    margin: 3em;
+    margin: 1em 3em 3em 3em;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 }
 
