@@ -15,12 +15,12 @@ h1 {
 
 h2 {
     font-size: 2.2em;
-    line-height: 1.2;
+    line-height: 2.1;
 }
 
 h3 {
     font-size: 1.6em;
-    line-height: 1.2;
+    line-height: 1.5;
 }
 
 ol li {
@@ -32,7 +32,7 @@ table, th, td {
     border-bottom: 1px solid #ddd;
     border-collapse: collapse;
     padding: .5em;
-    font-size: 1.1em;
+    font-size: 1.3em;
     text-align: center;
 }
 
@@ -46,7 +46,7 @@ table {
     max-height: 50%;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 20px;
+    padding-top: 6em;
 }
 
 .coffee_icon {
@@ -59,9 +59,9 @@ table {
 }
 
 #icon {
-    height: 200px;
-    width: 200px;
-    margin: 20px;
+    height: 15em;
+    width: 15em;
+    margin: 3em;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 }
 
