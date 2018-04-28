@@ -1,0 +1,62 @@
+
+<div class="brewtext">
+  <h1>Brewing with the <%= @method %></h1>
+  <h3>
+    <ul>
+      <% @brew_facts.each do |fact| %>
+        <li><%= fact %></li>
+      <% end %>
+    </ul>
+  </h3>
+</div>
+
+<div class="brewtext">
+  <h2>Grind Number: <%= params[:brewtype] == "chemex" ? "20" : "30" %></h2>
+</div>
+
+<div style="overflow-x:auto;">
+  <table>
+    <tbody>
+      <tr>
+        <th>Coffee</th>
+        <td>200ml</td>
+        <td>250ml</td>
+        <td>300ml</td>
+        <td>350ml</td>
+        <td>400ml</td>
+        <td>450ml</td>
+        <td>500ml</td>
+        <td>550ml</td>
+        <td>600ml</td>
+        <td>650ml</td>
+        <td>700ml</td>
+      </tr>
+      <tr>
+        <th>Beans</th>
+        <td>12g</td>
+        <td>15g</td>
+        <td>18g</td>
+        <td>21g</td>
+        <td>24g</td>
+        <td>27g</td>
+        <td>30g</td>
+        <td>33g</td>
+        <td>36g</td>
+        <td>39g</td>
+        <td>42g</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="brewtext">
+  <h2>Instructions:</h2>
+  <h3>
+    <ol>
+      <% @instructions.each do |step| %>
+        <li><%= step %></li>
+      <% end %>
+    </ol>
+  </h3>
+</div>
+
