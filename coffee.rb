@@ -17,10 +17,7 @@ brew_facts = {"chemex" =>
              }
 
 
-
 get "/" do
-  @title = "Coffee App"
-
   @coffee_pics = Dir.glob(root + "/public/images/coffee_pictures/*").map do |path|
     File.basename(path)
   end
@@ -32,7 +29,6 @@ get "/:brewtype" do
   brewtype = params[:brewtype]
   @brew_facts = brew_facts[brewtype]
   @instructions = File.readlines("data/#{brewtype}.txt")
-
   brewtype == "chemex" ? @method = "Chemex" : @method = "French Press"
 
   erb :brew_type, layout: :layout
